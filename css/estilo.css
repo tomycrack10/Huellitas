@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body{
+    background-color:#EBEDE3 ;
+    font-family: "Alfa Slab One", serif;
+}
+.titulo h1 {
+    background-color: lightseagreen;
+    color: white;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius:10px ;
+}
+.sobreNosotros{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #EBEDE3;
+}
+footer{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.enlaces{
+    display: flex;
+    list-style: none;
+    width: 450px;
+    justify-content: space-between;
+}
+.sobreNosotros div{
+    flex: 1;
+}
+.contenedor-tarjetas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #EBEDE3;
+
+}
+
+.perritos h2{
+    flex-basis: 100%;
+    text-align: center;
+}
+.tarjeta{
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #124D1C;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+
+}
+.tarjeta-datos{
+    display: flex;
+    background-color:#E4B028;
+    flex-direction: column;
+    padding: 10px;
+}
+.tarjeta img{
+    width: 100%;
+    height:200px;
+    border-radius:10px;
+}
+.tarjeta-datos h3{
+    color: #E4B028;
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+.perritos h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
